@@ -35,6 +35,9 @@ libraryDependencies ++=Seq(
 "org.plotly-scala" %% "plotly-core" % "0.8.4",
 "org.plotly-scala" %% "kaleido" % "0.1.0",
 
+//FP libraries
+"org.scalaz" %% "scalaz-core" % "7.4.0-M13",
+"org.typelevel" %% "simulacrum" % "1.0.1" % "provided",
 
 /* Machine Learning Libraries
  *** Deeplearning4j --> NLP
